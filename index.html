@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conoce la cafetería Aroma: bebidas, postres, horarios y nuestra historia.">
+  <title>Cafetería Aroma | Café y buenos momentos</title>
+  <link rel="icon" href="imagenes/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="encabezado" id="inicio">
+    <div class="contenedor barra">
+      <a class="marca" href="#inicio" aria-label="Cafetería Aroma, ir al inicio">
+        <img src="imagenes/logo.svg" alt="" width="46" height="46">
+        <span>Cafetería <strong>Aroma</strong></span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <ul class="navegacion">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#horarios">Horarios</a></li>
+          <li><a href="#preguntas">Preguntas</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="portada contenedor" aria-labelledby="titulo-portada">
+      <div class="portada-texto">
+        <p class="etiqueta">UN ESPACIO PARA DISFRUTAR</p>
+        <h1 id="titulo-portada">Un buen café para cada momento.</h1>
+        <p>En Cafetería Aroma nos gustan las cosas sencillas: una bebida recién preparada, un postre delicioso y una conversación tranquila.</p>
+        <a class="boton" href="#menu">Conoce nuestro menú</a>
+      </div>
+      <img class="portada-foto" src="imagenes/portada.jpg" width="1536" height="1024" alt="Taza de café con espuma, croissant y torta de chocolate sobre una mesa de madera">
+    </section>
+
+    <section class="seccion contenedor" id="menu" aria-labelledby="titulo-menu">
+      <div class="encabezado-seccion">
+        <div>
+          <p class="etiqueta">NUESTROS FAVORITOS</p>
+          <h2 id="titulo-menu">Menú de la casa</h2>
+        </div>
+        <p>Opciones preparadas para acompañar tu día.</p>
+      </div>
+      <div class="productos">
+        <article class="producto">
+          <img src="imagenes/espresso.jpg" width="720" height="530" loading="lazy" alt="Taza pequeña de espresso sobre una mesa de madera">
+          <div class="producto-texto">
+            <h3>Café americano</h3>
+            <p>Café suave y aromático, ideal para empezar el día.</p>
+            <p class="precio">S/ 7.00</p>
+          </div>
+        </article>
+        <article class="producto">
+          <img src="imagenes/capuchino.jpg" width="720" height="530" loading="lazy" alt="Capuchino con espuma y dibujo sobre la superficie">
+          <div class="producto-texto">
+            <h3>Capuchino</h3>
+            <p>Espresso con leche vaporizada y una capa de espuma.</p>
+            <p class="precio">S/ 11.00</p>
+          </div>
+        </article>
+        <article class="producto">
+          <img src="imagenes/croissant.jpg" width="720" height="530" loading="lazy" alt="Croissant dorado junto a una taza de café">
+          <div class="producto-texto">
+            <h3>Croissant</h3>
+            <p>Hojaldre horneado, crujiente por fuera y suave por dentro.</p>
+            <p class="precio">S/ 9.00</p>
+          </div>
+        </article>
+        <article class="producto">
+          <img src="imagenes/torta.jpg" width="720" height="530" loading="lazy" alt="Porción de torta de chocolate con cobertura y virutas">
+          <div class="producto-texto">
+            <h3>Torta de chocolate</h3>
+            <p>Bizcocho de cacao con una deliciosa cobertura.</p>
+            <p class="precio">S/ 12.00</p>
+          </div>
+        </article>
+      </div>
+      <p class="aviso">Los productos y precios son referenciales para esta demostración académica.</p>
+    </section>
+
+    <section class="seccion fondo-crema" id="nosotros" aria-labelledby="titulo-nosotros">
+      <div class="contenedor columnas">
+        <div>
+          <p class="etiqueta">QUIÉNES SOMOS</p>
+          <h2 id="titulo-nosotros">Pequeños detalles, buenos momentos.</h2>
+        </div>
+        <div>
+          <p>Cafetería Aroma es una propuesta de negocio que busca ofrecer un lugar cómodo para compartir una bebida y disfrutar de un postre.</p>
+          <p>Este sitio presenta la información más importante en una sola página: productos, horarios, preguntas frecuentes y contacto.</p>
+          <ul class="valores">
+            <li>Atención cordial</li>
+            <li>Ambiente acogedor</li>
+            <li>Información clara</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion contenedor" id="horarios" aria-labelledby="titulo-horarios">
+      <div class="columnas horarios-bloque">
+        <div>
+          <p class="etiqueta">PLANEA TU VISITA</p>
+          <h2 id="titulo-horarios">Horarios de atención</h2>
+          <p>Consulta nuestros horarios de referencia antes de visitarnos.</p>
+        </div>
+        <div class="tabla-contenedor">
+          <table>
+            <caption>Horario semanal de la cafetería</caption>
+            <thead>
+              <tr><th scope="col">Día</th><th scope="col">Horario</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Lunes a viernes</th><td>8:00 a. m. - 8:00 p. m.</td></tr>
+              <tr><th scope="row">Sábados</th><td>9:00 a. m. - 9:00 p. m.</td></tr>
+              <tr><th scope="row">Domingos</th><td>9:00 a. m. - 6:00 p. m.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion fondo-crema" id="preguntas" aria-labelledby="titulo-preguntas">
+      <div class="contenedor preguntas-bloque">
+        <p class="etiqueta">RESOLVEMOS TUS DUDAS</p>
+        <h2 id="titulo-preguntas">Preguntas frecuentes</h2>
+        <details>
+          <summary>¿El menú incluye bebidas y postres?</summary>
+          <p>Sí. Nuestra propuesta presenta opciones de café y postres para distintos momentos del día.</p>
+        </details>
+        <details>
+          <summary>¿Puedo consultar los precios?</summary>
+          <p>Sí. Cada producto del menú tiene una descripción y un precio referencial expresado en soles.</p>
+        </details>
+        <details>
+          <summary>¿Es posible comprar desde esta página?</summary>
+          <p>No. Este sitio es informativo y estático; no incluye compras, pagos ni pedidos en línea.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="seccion contenedor contacto" id="contacto" aria-labelledby="titulo-contacto">
+      <p class="etiqueta">SEGUIMOS EN CONTACTO</p>
+      <h2 id="titulo-contacto">Te esperamos en Aroma</h2>
+      <p>Esta es una propuesta académica para una cafetería ficticia de Lima, Perú. Los datos reales de ubicación y contacto se agregarían si el negocio se implementara.</p>
+      <a class="boton boton-claro" href="#inicio">Volver al inicio</a>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <span>© 2026 Cafetería Aroma</span>
+      <span>Proyecto académico de Desarrollo Web · HTML5 y CSS3</span>
+    </div>
+  </footer>
+</body>
+</html>
